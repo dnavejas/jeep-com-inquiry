@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+nav {
+    background-color: black;
+}
+.logo {
+    height: 25px;
+}
+.custom-toggler-icon {
+    color: white;
+}
+.navbar a:hover {
+    text-decoration: none;
+    color: #bfbfbf;
+    background-color: grey;
+    font: 24px
+}
+.menu {
+    color: white;
+    width: auto;
+    font-weight: 100;
+}
+.text-white {
+    line-height: .1;
+}
+.icon {
+    font-size: 15px;
+    margin: 9px;
+    color: grey;
+}
+.about-us {
+    background-color: rgba(0, 0, 0, .5);
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    line-height: 1.2;
+}
+.carousel-caption-1 {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+}
+.card {
+    border: 0px;
+}
+.popular-cars-bg {
+    background-color: #d1d1d1;
+}
+.card-img-top {
+    min-width: 140px;
+}
+.start-now-text {
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.start-now-text p {
+    width: 80%;
+}
+
+#start-now-button {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.start-now-img-container {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.start-now-img-container img {
+    width: 100%;
+}
+h3, h1 {
+    padding-top: 30px;
+    font-weight: bold;
+}
+.card h6,p {
+    margin: 0px;
+    padding: 0px;
+}
+.second-cont {
+    background-color: black;
+    color: white;
+}
+.grey-info {
+    background-color: #212121;
+    font-size: 12px;
+    font-weight: bold;
+}
+.container-c {
+    background-color: #d1d1d1;
+    padding-top: 20px;
+}
+.orange-color {
+    color: orange;
+    margin-left: 10px;
+}
+.info {
+    margin: 0 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.text {
+    font-size: 14px;
+}
+.just-now {
+    padding-top: 30px;
+}
+.button1 {
+    background-color: rgb(255, 186, 0);
+    padding: 12px 23px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .14rem;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: inherit;
+    position: relative;
+    transition-duration: 250ms;
+    margin-top: 10px;
+}
+.button1::after {
+    font-family: 'Font Awesome 5 Free';
+    content: ' \f054';
+    font-size: 12px;
+    color: black;
+}
+.blue-book {
+    background-color: #d1d1d1;
+    text-align: center;
+}
+.container-d {
+    background-color: #212121;
+}
+.footer-links {
+    color: #bfbfbf;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.white-gradient {
+    background-color: rgb(255, 186, 0);
+    border-radius: inherit;
+    padding: 5px 23px;
+    font-size: 12px;
+}
+.btn-link {
+    text-decoration: none;
+}
+.list-group-item {
+    background-color: black;
+    padding: 0px;
+}
+.container-f {
+    background-color: black;
+}
+.footer-icon {
+    color: #bfbfbf;
+    font-size: 20px;
+    margin: 20px 0.2px;
+}
+hr {
+    background-color: white;
+}
+.types-of-car {
+    margin: 30px 0px;
+    word-spacing: 4px;
+    display: flex;
+}
+.paragraph {
+    color: rgb(191, 191, 191);
+    font-size: 10px;
+    padding: 0px 10px;
+}
+.card-header {
+    background-color: black;
+}
+.hello {
+    background-color: black;
+    color: white;
+    border-bottom: 0.5px solid white;
+    border-radius: none;
+}
+.card-body {
+    background-color: black;
+}
+.card-header:first-child {
+    border-radius: 0px;
+}
+button {
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+.about-mob {
+    background-color: rgba(0, 0, 0, .5);
+    width: 25%;
+    height: 15%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    line-height: 1.2;
+}
+@media(min-width:576px) {
+    .collapse.collapse-sm {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+a {
+	text-decoration: none;
+	color: white;
+	line-height: 1.2;
+}
+a:enabled {
+	color: white;
+	text-decoration: none;
+}
+.navbar a:hover {
+	text-decoration: none;
+	color: #d8d8d8;
+	background-color: #3c3c3c;
+	transition: 300ms;
+}
+sub {
+	position: relative;
+	top: 3px;
+	font-size: 11px;
+}
+.navbar {
+	background-color: black;
+	height: 80px;
+	z-index: 1070;
+	font-size: 14px;
+}
+#logo {
+	width: 8.33333%;
+}
+@media (max-width: 990px) {
+	#logo {
+		width: 120px;
+	}
+	.navbar {
+		font-size: 12px;
+	}
+}
+@media (max-width: 576px) {
+	#logo {
+		height: 45px;
+		width: 100px;
+	}
+	.navbar {
+		height: 45px;
+	}
+}
+.nav-item {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+.blackbg {
+	background-color: black;
+}
+.chevron::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f078';
+	font-weight: 700;
+	color: white;
+	font-size: 12px;
+	margin-left: 8px;
+	position: relative;
+	top: -1;
+}
+.chevron-l::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f078';
+	font-weight: 700;
+	color: white;
+	font-size: 12px;
+	margin-left: 8px;
+	position: absolute;
+	right: 5;
+}
+.external::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f35d';
+	font-weight: 700;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	position: relative;
+	top: -2;
+}
+.globe::before {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f27a';
+	font-weight: 700;
+	color: #bfbfbf;
+	font-size: 12px;
+	margin: 9px;
+}
+.marker::before {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f3c5';
+	font-weight: 700;
+	color: #bfbfbf;
+	font-size: 14px;
+	margin: 9px;
+}
+.wrench::before {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f0ad';
+	font-weight: 700;
+	color: #bfbfbf;
+	font-size: 14px;
+	margin: 9px;
+}
+.menu {
+	font-weight: 500;
+	color: white;
+	width: auto;
+}
+.menu::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f0c9';
+	margin-left: 2px;
+	font-weight: 700;
+}
+#vehicle_title {
+	font-family: proxima-nova, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+.card {
+	text-align: center;
+	border: none;
+}
+.card-title {
+	font-family: proxima-nova, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+}
+.card-body {
+	padding: 0;
+	border: none;
+}
+.card-text {
+	margin: 0;
+	font-size: 14px;
+	font-weight: 700;
+	border: none;
+}
+.text-muted {
+	font-size: 9px;
+}
+.grey {
+	background-color: lightgrey;
+}
+.lightgrey {
+	background-color: #e7e7e7;
+}
+.card-top {
+	background-position: center;
+	background-size: cover;
+	height: 120px;
+}
+@media (min-width: 500px) {
+	.card-top {
+		height: 210px;
+	}
+}
+.card-1 {
+	background-image: url('card_1.jpg');
+}
+.card-2 {
+	background-image: url('card_2.jpg');
+}
+.card-3 {
+	background-image: url('card_3.jpg');
+}
+.grey .card-body {
+	background-color: black;
+	color: white;
+	font-size: 14px;
+}
+.card-footer {
+	background-color: #212121;
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+}
+.card-footer::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f054';
+	margin: 0 6px 0 25px;
+	font-size: 12px;
+	color: #ffba01;
+	font-weight: 700;
+}
+.btn {
+	font-family: proxima-nova, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 2px;
+	color: black;
+}
+.btn-warning::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f054';
+	margin: 0 0 0 8px;
+	font-size: 12px;
+	font-weight: 700;
+}
+h3 {
+	font-family: proxima-nova, sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 1;
+}
+.kelley {
+	width: 150px;
+	height: 150px;
+}
+h2 {
+	font-family: proxima-nova, sans-serif;
+}
+.fz-14 {
+	font-size: 14px;
+}
+.dark-grey {
+	background-color: #212121;
+	color: #bfbfbf;
+}
+.fz-12 {
+	font-size: 12px;
+}
+.fz-10 {
+	font-size: 10px;
+}
+.footer,
+.card-header,
+.collapse,
+.collapsing,
+.collapsed,
+.show,
+.btn-link {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
+.text-w {
+	color: white;
+	text-decoration: none;
+}
+p {
+	color: #bfbfbf;
+}
+p:hover {
+	color: white;
+}
+.fab {
+	font-size: 28px;
+}
+.container-fluid {
+	max-width: 1440px;
+}
+.titles {
+	max-width: 600px;
+}
+.tag {
+	width: 55px;
+	height: 24;
+}
+.stuff {
+	max-width: 700px;
+}
+.ft-pn {
+	font-family: proxima-nova, sans-serif;
+}
+.fz-25 {
+	font-size: 25px;
+}
+.lh-15 {
+	line-height: 1.5;
+}
